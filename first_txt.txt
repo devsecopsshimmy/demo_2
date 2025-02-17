@@ -1,2 +1,3 @@
 hello world
 fixed bug v1
+fixed bug v2

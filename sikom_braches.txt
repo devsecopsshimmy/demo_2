@@ -1,0 +1,7 @@
+בראנץ = מרכזי ששם קיים הקוד הראשי
+פיצ'ר בראנץ' = עמודים חדשים. קוד חדשים
+
+start_day = git fetch - git pull from the main branch
+open new branch/ switch to our branch 
+work on this branch (git add - git commit -m "messsage")
+git push

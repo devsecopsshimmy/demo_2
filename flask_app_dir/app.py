@@ -1,5 +1,5 @@
 from flask import Flask
-from db import db, init_db
+from flask_app_dir.db import db, init_db
 from routes.auth import auth_bp
 from routes.shopping import shopping_bp
 from config import Config

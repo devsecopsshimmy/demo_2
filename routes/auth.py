@@ -1,7 +1,6 @@
-import flask
 from flask import Blueprint, request, jsonify
 from db import db
-from db.models import User
+from db.models import User  # Ensure User model is imported correctly
 
 auth_bp = Blueprint("auth", __name__)
 

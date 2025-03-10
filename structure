@@ -1,0 +1,25 @@
+/my_flask_app
+│── app.py              
+│── config.py            
+│── /db
+│   ├── __init__.py      # Initialize the database
+│   ├── models.py        # Define database models (Users & Products)
+│── /routes
+│── /static
+│── /templates
+│── requirements.txt
+
+
+
+
+
+
+
+
+
+
+
+
+python -c "from app import db, app; db.create_all(app=app)"
+
+pip install flask flask-sqlalchemy flask-bcrypt flask-login

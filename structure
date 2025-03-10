@@ -1,4 +1,4 @@
-/my_flask_app
+/flask_app_dir
 │── app.py              
 │── config.py            
 │── /db

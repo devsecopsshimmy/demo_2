@@ -8,6 +8,18 @@
 <body>
     <link rel="stylesheet" href="static/style.css">
     <h1>Welcome to my website</h1>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="/auth/login" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        
+            <button type="submit">Login</button>
+        </form>
+    </div>
        
 </body>
 </html>

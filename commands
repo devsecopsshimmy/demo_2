@@ -1,6 +1,6 @@
-curl -X POST http://127.0.0.1:5000/auth/login -H "Content-Type: application/json" -d '{"username": "user1", "password": "test123"}'
+curl -X POST http://127.0.0.1:5000/auth/register -H "Content-Type: application/json" -d '{"username": "shimmy", "password": "123"}'
 
-curl -X POST http://127.0.0.1:5000/auth/login -H "Content-Type: application/json" -d '{"username": "user1", "password": "test123"}'
+curl -X POST http://127.0.0.1:5000/auth/login -H "Content-Type: application/json" -d '{"username": "shimmy", "password": "123"}'
 
 curl -X POST http://127.0.0.1:5000/shop/products -H "Content-Type: application/json" -d '{"name": "Laptop", "price": 999.99, "stock": 5}'
 

@@ -1,0 +1,10 @@
+/* This is the heater of my site*/
+h1{
+    color: red;
+    font-size: 50px;
+}
+/* This is the body of my site*/
+body{
+    background-image: url("../static/background.jpg");
+    background-size: cover;
+}
